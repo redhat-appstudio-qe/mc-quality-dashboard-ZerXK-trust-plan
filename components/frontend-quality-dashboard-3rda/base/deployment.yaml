@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-3rda
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-hjfn-tenant/mc-quality-dashboard/frontend-quality-dashboard-3rda@sha256:e7cad389bfec411a9b706a856b3f76ec49fe8d6a0e21ea642d4a09a93b32bd37
         imagePullPolicy: Always
         name: container-image
         ports:
